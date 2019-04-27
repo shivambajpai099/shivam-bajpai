@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+* {
+  box-sizing: border-box;
+}
+.header {
+  text-align: center;
+  padding: 32px;
+}
+.row {
+  display: -ms-flexbox; /* IE 10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE 10 */
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+/* Create two equal columns that sits next to each other */
+.column {
+  -ms-flex: 50%; /* IE 10 */
+  flex: 30%;
+  padding: 0 4px;
+  margin-left: 2rem;
+  margin-bottom: 10rem;
+}
+
+.column img {
+  margin-top: 8px;
+  margin-bottom: 8px;
+  width:300px;
+  height:250px;
+  vertical-align: middle;
+}
+
+
+
+
+</style>
+</head>
+<body>
+
+<!-- Header -->
+<div class="header" id="myHeader">
+  <h1>Projects</h1>
+  
+</div>
+
+<!-- Photo Grid -->
+<div class="row"> 
+  <div class="column">
+    <img src="img/proj2.jpeg" ><br>Driver Drowsiness Detection using Computer Vision<br>
+  </div>
+  <div class ="column">
+    <img src="img/index.png"><br>Athletics Meet Manager<br>
+  </div>
+
+  <div class ="column">
+    <img src="img/proj5.jpeg" ><br>CodeBuzz - Competitive Coding Dashboard<br>
+  </div>
+</div>
+
+<div class="row"> 
+    <div class="column">
+      <img src="img/proj3.png" ><br>Automatic Text Summarization<br>
+    </div>
+    <div class ="column">
+      <img src="img/proj4.png"><br>Handwritten Digit Recognition<br>
+    </div>
+  
+    <div class ="column">
+      <img src="img/proj6.jpeg"><br>Self Driving Car using Udacity Car Simulator<br>
+    </div>
+  </div>
+
+
+</body>
+</html>
